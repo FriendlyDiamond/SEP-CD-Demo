@@ -1,5 +1,19 @@
 /* SPIN TEXT */
 
+
+body {
+  margin: 0;
+  background: #dc8e10;     /* BACKGROUND COLOR HERE */
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+
 .spin-text {
     margin-top: 20px;
     margin-left: 20px;
@@ -45,16 +59,6 @@
 }
 
 /* LAYOUT */
-
-body {
-  margin: 0;
-  background: #dc8e10;
-  color: white;
-  font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
 .grid-container {
   display: grid;
